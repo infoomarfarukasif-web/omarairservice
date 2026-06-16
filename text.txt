@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar Air Service | Your journey, our wings</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f0f8ff;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #0f4c81, #1d70b8, #3a9ad9);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            font-size: 3rem;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+        }
+        header p {
+            font-size: 1.3rem;
+            font-style: italic;
+            color: #ffeb3b;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 50px;
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            border-left: 6px solid #0f4c81;
+        }
+        .intro h2 {
+            color: #0f4c81;
+            margin-bottom: 15px;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+        .service-box {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-top: 5px solid #1d70b8;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .service-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+        }
+        .service-box h3 {
+            margin-bottom: 12px;
+            color: #0f4c81;
+            font-size: 1.3rem;
+        }
+        .service-box p {
+            color: #666;
+            font-size: 0.95rem;
+        }
+        .contact-section {
+            background: #0f4c81;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            margin-top: 60px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .contact-section h2 {
+            margin-bottom: 25px;
+            font-size: 2rem;
+        }
+        .contact-info {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        .contact-info strong {
+            color: #ffeb3b;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #ff9800;
+            color: white;
+            padding: 14px 35px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-top: 25px;
+            transition: background 0.3s, transform 0.2s;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .cta-button:hover {
+            background: #e65100;
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+            color: #666;
+            font-size: 0.95rem;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Omar Air Service</h1>
+        <p>Your journey, our wings</p>
+    </header>
+
+    <div class="container">
+        <!-- Introduction -->
+        <section class="intro">
+            <h2>আমাদের লক্ষ্য</h2>
+            <p>আমরা অত্যন্ত সততার সাথে ও স্বল্প খরচে কাস্টমারদের সেরা ট্রাভেল ও ইমিগ্রেশন সার্ভিস দিয়ে আসছি। আপনার প্রতিটি সফর নিরাপদ ও স্বাচ্ছন্দ্যময় করাই আমাদের মূল উদ্দেশ্য।</p>
+        </section>
+
+        <!-- Services Section -->
+        <h2 style="text-align: center; margin-bottom: 35px; color: #0f4c81; font-size: 2rem;">আমাদের সেবাসমূহ</h2>
+        <section class="services">
+            <div class="service-box">
+                <h3>✈️ বিমান টিকিট</h3>
+                <p>দেশী ও আন্তর্জাতিক যেকোনো এয়ারলাইন্সের অভ্যন্তরীণ ও আন্তর্জাতিক বিমান টিকিট বুকিং সুবিধা।</p>
+            </div>
+            <div class="service-box">
+                <h3>🌍 সকল দেশের ভিসা প্রসেসিং</h3>
+                <p>বিশ্বের যেকোনো দেশের ট্যুরিস্ট, বিজনেস বা স্টুডেন্ট ভিসা প্রসেসিংয়ের নির্ভরযোগ্য সমাধান।</p>
+            </div>
+            <div class="service-box">
+                <h3>🕋 হজ ও ওমরাহ প্যাকেজ</h3>
+                <p>সম্পূর্ণ ধর্মীয় নিয়ম মেনে সুব্যবস্থাপনার সাথে বিশ্বস্ত ও সাশ্রয়ী হজ এবং ওমরাহ প্যাকেজ।</p>
+            </div>
+            <div class="service-box">
+                <h3>💼 ম্যানপাওয়ার (Manpower)</h3>
+                <p>বৈধ ও সরকারি নিয়ম মেনে সঠিক প্রক্রিয়ায় জনশক্তি নিয়োগ এবং কর্মসংস্থান সংক্রান্ত প্রসেসিং।</p>
+            </div>
+            <div class="service-box">
+                <h3>📄 পাসপোর্ট আবেদন</h3>
+                <p>নতুন পাসপোর্ট তৈরি ও রিনিউ করার জন্য নির্ভুল ফরম পূরণ এবং প্রয়োজনীয় পরামর্শ।</p>
+            </div>
+            <div class="service-box">
+                <h3>📅 টিকিটের তারিখ পরিবর্তন</h3>
+                <p>যেকোনো জরুরি প্রয়োজনে পূর্বে বুকিং করা বিমান টিকিটের তারিখ সহজ প্রক্রিয়ায় পরিবর্তন।</p>
+            </div>
+            <div class="service-box">
+                <h3>🏨 আন্তর্জাতিক হোটেল বুকিং</h3>
+                <p>বিদেশে ভ্রমণের সময় আপনার বাজেট অনুযায়ী নিরাপদ ও আরামদায়ক হোটেল বুকিং সুবিধা।</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <h2>সরাসরি আমাদের অফিসে যোগাযোগ করুন</h2>
+            <div class="contact-info">📍 <strong>ঠিকানা:</strong> বরাত সেন্টার (দ্বিতীয় তলা), থানা স্ট্যান্ড, ধামরাই, ঢাকা।</div>
+            <div class="contact-info">📞 <strong>মোবাইল:</strong> 01932-793183, 01332-105208</div>
+            <div class="contact-info">✉️ <strong>ইমেইল:</strong> omarairservice@gmail.com</div>
+            
+            <!-- WhatsApp Link Button -->
+            <a href="https://wa.me/8801932793183" class="cta-button" target="_blank">হোয়াটসঅ্যাপে মেসেজ করুন</a>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Omar Air Service. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
